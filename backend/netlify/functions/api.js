@@ -4,12 +4,13 @@ import booksRoute from "../../routes/booksRoute.js";
 import cors from "cors";
 import mongoose from "mongoose";
 import router from "../../routes/booksRoute.js";
+import { mongoDBURL } from "../../config.js";
 
 const api = express();
 
 api.use(express.json());
 
-app.use(
+api.use(
     cors({
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type"],
@@ -25,7 +26,7 @@ mongoose
     .connect(mongoDBURL)
     .then(() => {
         console.log("App connected to database");
-        app.listen(PORT, () => {
+        api.listen(PORT, () => {
             console.log(`App is listening to port: ${PORT}`);
         });
     })
