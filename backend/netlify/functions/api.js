@@ -1,8 +1,9 @@
 import express, { Router } from "express";
 import serverless from "serverless-http";
-import booksRoute from "./routes/booksRoute.js";
+import booksRoute from "../../routes/booksRoute.js";
 import cors from "cors";
 import mongoose from "mongoose";
+import router from "../../routes/booksRoute.js";
 
 const api = express();
 
@@ -15,7 +16,7 @@ app.use(
     })
 );
 
-const router = Router();
+const booksRouter = router;
 // router.get("/hello", (req, res) => res.send("Hello World!"));
 
 api.use("/books", booksRoute);
