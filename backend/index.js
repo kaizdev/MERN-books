@@ -13,7 +13,11 @@ app.use(express.json());
 // allow all browsers with default of cors (*)
 app.use(
     cors({
-        origin: ["http://localhost:3000", "http://localhost:5173"],
+        origin: [
+            "http://localhost:3000",
+            "http://localhost:5173",
+            "https://mern-books-yw7a.onrender.com",
+        ],
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type"],
     })
