@@ -2,8 +2,8 @@
 
 A full stack books list application with CRUD functionality.
 
-<!-- **Hosted full stack link via Render** - [Employee Creator Online](https://employee-creator-front-end.onrender.com/)
-Note that this is hosted on a free plan, so the database can take up to 3 - 5 minutes to load the data. Please reload the page after this time. -->
+Deployed link: http://mern-books.netlify.app
+Note that it can take up to 1 minute to retrieve the backend database
 
 ## Demo & Snippets
 
@@ -22,7 +22,8 @@ Books - cards view
         -   axios
         -   react-router-dom
         -   react-icons
--   Back end: Express
+    -   Front end hosted on netlify
+-   Back end: Express. Hosted on render. Backend API via [API](https://mern-books-yw7a.onrender.com/books)
 -   Database: MongoDB
 
 ---

@@ -16,7 +16,7 @@ export async function handler(event, context) {
             origin: [
                 "http://localhost:3000",
                 "http://localhost:5173",
-                "https://main--celebrated-otter-b15eba.netlify.app",
+                "https://mern-books.netlify.app",
             ],
             methods: ["GET", "POST", "PUT", "DELETE"],
             allowedHeaders: ["Content-Type"],
