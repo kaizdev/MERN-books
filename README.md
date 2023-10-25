@@ -23,7 +23,7 @@ Books - cards view
         -   react-router-dom
         -   react-icons
     -   Front end hosted on netlify
--   Back end: Express. Hosted on render. Backend API via [API](https://mern-books-yw7a.onrender.com/books)
+-   Back end: Express. Hosted on render. Backend API via https://mern-books-yw7a.onrender.com/books
 -   Database: MongoDB
 
 ---

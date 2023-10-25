@@ -17,6 +17,7 @@ app.use(
             "http://localhost:3000",
             "http://localhost:5173",
             "https://mern-books-yw7a.onrender.com",
+            "https://mern-books.netlify.app/",
         ],
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type"],
